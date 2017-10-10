@@ -24,7 +24,7 @@ float sum(float a, char c, float b)
 
         case '/': {
             if (b==0) {
-                cout << "You can`t devide by zero!";
+                cout << "Вы не можете делить на 0";
                 exit (0);
             }
 
@@ -35,7 +35,7 @@ float sum(float a, char c, float b)
         }
 
         default:  {
-            cout << "You printed the wrong symbol!";
+            cout << "Вы напечатали неправильный символ!";
             exit (0);
         }
     }
